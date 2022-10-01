@@ -1,0 +1,912 @@
+2022-09-22T13:16:09.241Z In(05) mks Log for VMware Workstation pid=13012 version=16.2.4 build=build-20089737 option=Release
+2022-09-22T13:16:09.241Z In(05) mks The host is 64-bit.
+2022-09-22T13:16:09.241Z In(05) mks Host codepage=windows-936 encoding=GBK
+2022-09-22T13:16:09.241Z In(05) mks Host is Windows 10 Home, 64-bit (Build 19044.2006)
+2022-09-22T13:16:09.241Z In(05) mks Host offset from UTC is -08:00.
+2022-09-22T13:16:09.262Z In(05) main  VTHREAD 15340 "main"
+2022-09-22T13:16:09.262Z In(05) main  MKSRoleMain: Initializing MKSSandbox...
+2022-09-22T13:16:09.262Z In(05) main  MKSRoleMain: Initializing FeatureState...
+2022-09-22T13:16:09.262Z In(05) main  MKSRoleMain: Initializing Locale...
+2022-09-22T13:16:09.262Z In(05) main  LOCALE GBK -> zh_CN User=804 System=804
+2022-09-22T13:16:09.262Z In(05) main  Msg_SetLocaleEx: HostLocale=GBK UserLocale=zh_CN
+2022-09-22T13:16:09.262Z In(05) main  DictionaryLoad: Cannot open file "C:\Program Files (x86)\VMware\VMware Workstation\\messages\zh_CN\vmware-mks.vmsg": The system cannot find the file specified.
+2022-09-22T13:16:09.262Z In(05) main  [msg.dictionary.load.openFailed] Cannot open file "C:\Program Files (x86)\VMware\VMware Workstation\\messages\zh_CN\vmware-mks.vmsg": The system cannot find the file specified.
+2022-09-22T13:16:09.262Z Wa(03) main  Cannot load message dictionary "C:\Program Files (x86)\VMware\VMware Workstation\\messages\zh_CN\vmware-mks.vmsg".
+2022-09-22T13:16:09.262Z In(05) main  MKSRoleMain: Initializing Preference...
+2022-09-22T13:16:09.267Z In(05) main  DictionaryLoad: Cannot open file "C:\Users\siying.qin\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2022-09-22T13:16:09.267Z In(05) main  [msg.dictionary.load.openFailed] Cannot open file "C:\Users\siying.qin\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2022-09-22T13:16:09.267Z In(05) main  PREF Optional preferences file not found at C:\Users\siying.qin\AppData\Roaming\VMware\config.ini. Using default values.
+2022-09-22T13:16:09.267Z In(05) main  UUID: SMBIOS UUID is reported as 'c1 db 94 3f a9 dd 49 c5-aa fd 39 04 83 b2 39 b1'.
+2022-09-22T13:16:09.269Z In(05) main  MKSRoleMain: Initializing Poll...
+2022-09-22T13:16:09.269Z In(05) main  POLL Using the WSAPoll API Implementation for PollDefault
+2022-09-22T13:16:09.270Z In(05) main  MKSRoleMain: Initializing Log...
+2022-09-22T13:16:09.270Z In(05) main  MKSRoleMain: Found Config Settings:
+2022-09-22T13:16:09.270Z In(05) main  DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini
+2022-09-22T13:16:09.270Z In(05) main  DICT          printers.enabled = "FALSE"
+2022-09-22T13:16:09.270Z In(05) main  DICT --- NON PERSISTENT (null)
+2022-09-22T13:16:09.270Z In(05) main  DICT --- USER PREFERENCES C:\Users\siying.qin\AppData\Roaming\VMware\preferences.ini
+2022-09-22T13:16:09.270Z In(05) main  DICT   pref.lastUpdateCheckSec = "1663744621"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.keyboardAndMouse.vmHotKey.enabled = "FALSE"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.keyboardAndMouse.vmHotKey.count = "0"
+2022-09-22T13:16:09.270Z In(05) main  DICT         vmWizard.guestKey = "ubuntu-64"
+2022-09-22T13:16:09.270Z In(05) main  DICT vmWizard.installMediaType = "later"
+2022-09-22T13:16:09.270Z In(05) main  DICT vmWizard.isoLocationMRU.count = "2"
+2022-09-22T13:16:09.270Z In(05) main  DICT vmWizard.isoLocationMRU0.location = "C:\Users\siying.qin\Desktop\测试文件\ubuntu-20.04.5-desktop-amd64.iso"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window.count = "1"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.tab.count = "3"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.tab0.cnxType = "vmdb"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.tab1.cnxType = "vmdb"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.sidebar = "TRUE"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.sidebar.width = "200"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.statusBar = "TRUE"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.tabs = "TRUE"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.thumbnailBar = "FALSE"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.thumbnailBar.size = "100"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.thumbnailBar.view = "opened-vms"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.placement.left = "825"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.placement.top = "196"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.placement.right = "1833"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.placement.bottom = "916"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.maximized = "FALSE"
+2022-09-22T13:16:09.270Z In(05) main  DICT vmWizard.isoLocationMRU1.location = "C:\Users\siying.qin\Desktop\虚拟机系统盘\ubuntu-20.04.5-desktop-amd64.iso"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.tab0.dest = ""
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.tab0.file = ""
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.tab0.type = "home"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.tab0.focused = "FALSE"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.tab1.dest = ""
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.tab1.file = "D:\Ubuntu 02\test.vmx"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.tab1.type = "vm"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.tab1.focused = "TRUE"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.tab2.cnxType = "vmdb"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.tab2.dest = ""
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.tab2.file = "D:\Unbuntu 01\Ubuntu 64 位.vmx"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.tab2.type = "vm"
+2022-09-22T13:16:09.270Z In(05) main  DICT pref.ws.session.window0.tab2.focused = "FALSE"
+2022-09-22T13:16:09.270Z In(05) main  DICT --- USER DEFAULTS C:\Users\siying.qin\AppData\Roaming\VMware\config.ini
+2022-09-22T13:16:09.270Z In(05) main  DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2022-09-22T13:16:09.270Z In(05) main  DICT         authd.client.port = "902"
+2022-09-22T13:16:09.270Z In(05) main  DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2022-09-22T13:16:09.270Z In(05) main  DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2022-09-22T13:16:09.270Z In(05) main  DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "26627"
+2022-09-22T13:16:09.270Z In(05) main  DICT installerDefaults.componentDownloadEnabled = "yes"
+2022-09-22T13:16:09.270Z In(05) main  DICT installerDefaults.dataCollectionEnabled = "no"
+2022-09-22T13:16:09.270Z In(05) main  DICT installerDefaults.dataCollectionEnabled.epoch = "26627"
+2022-09-22T13:16:09.270Z In(05) main  DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2022-09-22T13:16:09.270Z In(05) main  DICT         authd.client.port = "902"
+2022-09-22T13:16:09.270Z In(05) main  DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2022-09-22T13:16:09.270Z In(05) main  DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2022-09-22T13:16:09.270Z In(05) main  DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "26627"
+2022-09-22T13:16:09.270Z In(05) main  DICT installerDefaults.componentDownloadEnabled = "yes"
+2022-09-22T13:16:09.271Z In(05) main  DICT installerDefaults.dataCollectionEnabled = "no"
+2022-09-22T13:16:09.271Z In(05) main  DICT installerDefaults.dataCollectionEnabled.epoch = "26627"
+2022-09-22T13:16:09.271Z In(05) main  LOCALE GBK -> zh_CN User=804 System=804
+2022-09-22T13:16:09.271Z In(05) main  Msg_SetLocaleEx: HostLocale=GBK UserLocale=zh_CN
+2022-09-22T13:16:09.271Z In(05) main  DictionaryLoad: Cannot open file "C:\Program Files (x86)\VMware\VMware Workstation\x64\messages\zh_CN\vmware.vmsg": The system cannot find the path specified.
+2022-09-22T13:16:09.271Z In(05) main  [msg.dictionary.load.openFailed] Cannot open file "C:\Program Files (x86)\VMware\VMware Workstation\x64\messages\zh_CN\vmware.vmsg": The system cannot find the path specified.
+2022-09-22T13:16:09.271Z Wa(03) main  Cannot load message dictionary "C:\Program Files (x86)\VMware\VMware Workstation\x64\messages\zh_CN\vmware.vmsg".
+2022-09-22T13:16:09.271Z In(05) main  MKSRoleMain: Initializing Sig
+2022-09-22T13:16:09.271Z In(05) main  MKSRoleMain: Initializing MKS
+2022-09-22T13:16:09.282Z In(05) main  MKSRoleMain: Powering on.
+2022-09-22T13:16:09.282Z In(05) main  MKSSandbox: Powering on MKSSandboxComm
+2022-09-22T13:16:09.282Z In(05) main  MKSRoleMain: Powering on MKS
+2022-09-22T13:16:09.282Z In(05) main  MKS PowerOn
+2022-09-22T13:16:09.282Z In(05) mks  VTHREAD 13776 "mks"
+2022-09-22T13:16:09.282Z In(05) mks  MKS thread is alive
+2022-09-22T13:16:09.282Z In(05) svga  VTHREAD 13488 "svga"
+2022-09-22T13:16:09.282Z In(05) svga  SVGA thread is alive
+2022-09-22T13:16:09.282Z In(05) mks  MKS: SSE2=1, SSSE3=1, SSE4_1=1
+2022-09-22T13:16:09.287Z In(05) mks  MKS Win32: Registering top level window (0x70bc8) to receive session change notification.
+2022-09-22T13:16:09.287Z In(05) mks  MKS Win32: Successfully enabled high resolution system timer.
+2022-09-22T13:16:09.287Z In(05) mks  Current Display Settings:
+2022-09-22T13:16:09.288Z In(05) mks     Display: 0 size: 1920x1080  position: (0, 0) name: \\.\DISPLAY1  
+2022-09-22T13:16:09.288Z In(05) mks  MKS Win32: MIL: 0x2000
+2022-09-22T13:16:09.288Z In(05) mks  MKS-RenderMain: PowerOn allowed DX11Renderer 
+2022-09-22T13:16:09.288Z In(05) mks  MKS-RenderMain: ISB not enabled by config
+2022-09-22T13:16:09.288Z In(05) mks  MKS-RenderMain: Collecting RenderOps caps from DX11Renderer
+2022-09-22T13:16:09.288Z In(05) mks  MKS-RenderMain: Starting DX11Renderer
+2022-09-22T13:16:09.290Z In(05) mks  DX11Renderer: Enumerating adapter 0
+2022-09-22T13:16:09.290Z In(05) mks  DX11Renderer: `NVIDIA GeForce RTX 3070 Laptop GPU` vendor=0x10de device=0x249d revision=161
+2022-09-22T13:16:09.290Z In(05) mks  DX11Renderer: video=8044MB system=0MB shared=8076MB
+2022-09-22T13:16:09.290Z In(05) mks  DX11Renderer: LOCAL     budget  7276M usage     0M avail  3766M res     0M
+2022-09-22T13:16:09.290Z In(05) mks  DX11Renderer: NON-LOCAL budget  7416M usage     0M avail  3836M res     0M
+2022-09-22T13:16:09.395Z In(05) mks  DX11Renderer: Using device unknown; adapter `NVIDIA GeForce RTX 3070 Laptop GPU`
+2022-09-22T13:16:09.395Z In(05) mks  DX11Renderer: Enumerating adapter 1
+2022-09-22T13:16:09.395Z In(05) mks  DX11Renderer: `Microsoft Basic Render Driver` vendor=0x1414 device=0x008c revision=0
+2022-09-22T13:16:09.395Z In(05) mks  DX11Renderer: video=0MB system=0MB shared=8076MB
+2022-09-22T13:16:09.395Z In(05) mks  DX11Renderer: LOCAL     budget  7416M usage     0M avail  3836M res     0M
+2022-09-22T13:16:09.395Z In(05) mks  DX11Renderer: NON-LOCAL budget     0M usage     0M avail     0M res     0M
+2022-09-22T13:16:09.397Z In(05) mks  DX11Renderer: NVIDIA driver version 511.65 (branch r511_37)
+2022-09-22T13:16:09.397Z In(05) mks  DX11Renderer: GPU chip: Ampere (Ampere)
+2022-09-22T13:16:09.397Z In(05) mks  DX11Renderer: Max 2D Texture Size=16384
+2022-09-22T13:16:09.397Z In(05) mks  DX11Renderer:  ClearViewSupported: 1
+2022-09-22T13:16:09.397Z In(05) mks  DX11Renderer:  MultisampleRTVWithForcedSampleCountOne: 1
+2022-09-22T13:16:09.397Z In(05) mks  DX11Renderer:  MapNoOverwriteOnDynamicConstantBuffer: 1
+2022-09-22T13:16:09.397Z In(05) mks  DX11Renderer:  MapNoOverwriteOnDynamicBufferSRV: 1
+2022-09-22T13:16:09.397Z In(05) mks  DX11Renderer:  UseNativeConstantBuffers: 1
+2022-09-22T13:16:09.397Z In(05) mks  DX11Renderer:  UseBlendLogicOps: 1
+2022-09-22T13:16:09.397Z In(05) mks  DX11Renderer:  TypedUAVLoadAdditionalFormats: 1
+2022-09-22T13:16:09.397Z In(05) mks  DX11Renderer: SDK=7, feature level=11.1
+2022-09-22T13:16:09.397Z In(05) mks  DX11Renderer: Max feature level=12.1
+2022-09-22T13:16:09.407Z In(05) mks  Started Shim3D
+2022-09-22T13:16:09.407Z In(05) mks  MKS-RenderMain: Started DX11Renderer
+2022-09-22T13:16:09.407Z In(05) mks  MKS-RenderMain: Found Full Renderer: DX11Renderer
+2022-09-22T13:16:09.407Z In(05) mks  MKS-RenderMain: maxTextureSize=16384
+2022-09-22T13:16:09.407Z In(05) mks  MKSRemoteMgr: Set default display name: Ubuntu 64 位
+2022-09-22T13:16:09.407Z In(05) mks  MKSRemoteMgr: Loading VNC Configuration from VM config file
+2022-09-22T13:16:09.407Z In(05) mks  MKSRemoteMgr: Using default VNC keymap table "us"
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID vendor: GenuineIntel
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID family: 0x6 model: 0x8d stepping: 0x1
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID codename: Unknown
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID name: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000000, 0: 0x0000001b 0x756e6547 0x6c65746e 0x49656e69
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000001, 0: 0x000806d1 0x02100800 0x7ffafbbf 0xbfebfbff
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000002, 0: 0x00feff01 0x000000f0 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000004, 0: 0x1c004121 0x02c0003f 0x0000003f 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000004, 1: 0x1c004122 0x01c0003f 0x0000003f 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000004, 2: 0x1c004143 0x04c0003f 0x000003ff 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000004, 3: 0x1c03c163 0x02c0003f 0x00007fff 0x00000004
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000004, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x11121020
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000006, 0: 0x0017eff7 0x00000002 0x00000009 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000007, 0: 0x00000000 0xf3bfa7eb 0x18c05fce 0xfc100510
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000008, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000a, 0: 0x08300805 0x00000000 0x0000000f 0x00008604
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000b, 0: 0x00000001 0x00000002 0x00000100 0x00000002
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000b, 1: 0x00000004 0x00000010 0x00000201 0x00000002
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x00000002
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000d, 0: 0x000002e7 0x00000a80 0x00000a88 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000d, 1: 0x0000000f 0x00000a10 0x00003900 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000d, 2: 0x00000100 0x00000240 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000d, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000d, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000d, 5: 0x00000040 0x00000440 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000d, 6: 0x00000200 0x00000480 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000d, 7: 0x00000400 0x00000680 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000d, 8: 0x00000080 0x00000000 0x00000001 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000d, 9: 0x00000008 0x00000a80 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000d, a: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000d, b: 0x00000010 0x00000000 0x00000001 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000d, c: 0x00000018 0x00000000 0x00000001 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000d, d: 0x00000008 0x00000000 0x00000001 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000e, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000f, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000000f, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000010, 0: 0x00000000 0x00000004 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000010, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000010, 2: 0x00000013 0x00000000 0x00000004 0x00000007
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000010, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000011, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000012, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000012, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000012, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000012, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000013, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000014, 0: 0x00000001 0x0000004f 0x00000007 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000014, 1: 0x02490002 0x003f1fff 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000015, 0: 0x00000002 0x00000078 0x0249f000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000016, 0: 0x000008fc 0x000011f8 0x00000064 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000017, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000018, 0: 0x00000008 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000018, 1: 0x00000000 0x00080001 0x00000010 0x00004022
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000018, 2: 0x00000000 0x00080006 0x00000002 0x00004022
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000018, 3: 0x00000000 0x0010000f 0x00000001 0x00004125
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000018, 4: 0x00000000 0x00040001 0x00000010 0x00004024
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000018, 5: 0x00000000 0x00040006 0x00000008 0x00004024
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000018, 6: 0x00000000 0x00080008 0x00000001 0x00004124
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000018, 7: 0x00000000 0x00080007 0x00000080 0x00004043
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000018, 8: 0x00000000 0x00080009 0x00000080 0x00004043
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 00000019, 0: 0x00000007 0x00000014 0x00000003 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000001a, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 0000001b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000121 0x2c100800
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 80000002, 0: 0x68743131 0x6e654720 0x746e4920 0x52286c65
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 80000003, 0: 0x6f432029 0x54286572 0x6920294d 0x31312d37
+2022-09-22T13:16:09.407Z In(05) main  hostCPUID level 80000004, 0: 0x48303038 0x32204020 0x4730332e 0x00007a48
+2022-09-22T13:16:09.408Z In(05) main  hostCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.408Z In(05) main  hostCPUID level 80000006, 0: 0x00000000 0x00000000 0x01007040 0x00000000
+2022-09-22T13:16:09.408Z In(05) main  hostCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000100
+2022-09-22T13:16:09.408Z In(05) main  hostCPUID level 80000008, 0: 0x00003027 0x00000000 0x00000000 0x00000000
+2022-09-22T13:16:09.408Z In(05) main  PStrIntern expansion: nBkts=256
+2022-09-22T13:16:09.408Z In(05) main  VMFeature_GetHostCaps: hostCaps:
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.sse3 = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.pclmulqdq = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.mwait = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.vmx = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.ssse3 = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.fma = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.cmpxchg16b = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.pcid = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.sse41 = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.sse42 = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.movbe = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.popcnt = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.aes = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.xsave = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.avx = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.f16c = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.rdrand = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.ds = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.ss = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.fsgsbase = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.bmi1 = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.avx2 = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.smep = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.bmi2 = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.enfstrg = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.invpcid = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.avx512f = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.avx512dq = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.rdseed = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.adx = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.smap = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.avx512ifma = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.clflushopt = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.clwb = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.avx512cd = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.sha = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.avx512bw = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.avx512vl = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.avx512vbmi = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.umip = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.pku = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.avx512vbmi2 = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.gfni = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.vaes = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.vpclmulqdq = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.avx512vnni = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.avx512bitalg = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.avx512vpopcntdq = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.rdpid = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.movdiri = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.movdir64b = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.fast_short_repmov = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.avx512vp2intersect = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.mdclear = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.stibp = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.fcmd = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.ssbd = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.xcr0_master_sse = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.xcr0_master_ymm_h = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.xcr0_master_bndregs = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.xcr0_master_bndcsr = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.xcr0_master_opmask = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.xcr0_master_zmm_h = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.xcr0_master_hi16_zmm = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.xcr0_master_pkru = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.xsaveopt = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.xsavec = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.xgetbv_ecx1 = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.xsaves = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.lahf64 = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.abm = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.3dnprefetch = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.nx = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.pdpe1gb = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.rdtscp = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.lm = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.intel = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.ibrs = 1
+2022-09-22T13:16:09.408Z In(05) main  Capability Found: cpuid.ibpb = 1
+2022-09-22T13:16:09.408Z In(05) main  MKSRoleMain: PowerOn finished.
+2022-09-22T13:16:09.408Z In(05) svga  SVGA3dDevCaps: replayFifo host
+2022-09-22T13:16:09.408Z In(05) svga    cap[  0]: 0x00000001 (3D)
+2022-09-22T13:16:09.408Z In(05) svga    cap[  1]: 0x00000008 (MAX_LIGHTS)
+2022-09-22T13:16:09.408Z In(05) svga    cap[  2]: 0x00000008 (MAX_TEXTURES)
+2022-09-22T13:16:09.408Z In(05) svga    cap[  3]: 0x00000008 (MAX_CLIP_PLANES)
+2022-09-22T13:16:09.408Z In(05) svga    cap[  4]: 0x00000007 (VERTEX_SHADER_VERSION)
+2022-09-22T13:16:09.408Z In(05) svga    cap[  5]: 0x00000001 (VERTEX_SHADER)
+2022-09-22T13:16:09.408Z In(05) svga    cap[  6]: 0x0000000d (FRAGMENT_SHADER_VERSION)
+2022-09-22T13:16:09.408Z In(05) svga    cap[  7]: 0x00000001 (FRAGMENT_SHADER)
+2022-09-22T13:16:09.408Z In(05) svga    cap[  8]: 0x00000008 (MAX_RENDER_TARGETS)
+2022-09-22T13:16:09.408Z In(05) svga    cap[  9]: 0x00000001 (S23E8_TEXTURES)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 10]: 0x00000001 (S10E5_TEXTURES)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 11]: 0x00000004 (MAX_FIXED_VERTEXBLEND)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 12]: 0x00000001 (D16_BUFFER_FORMAT)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 13]: 0x00000001 (D24S8_BUFFER_FORMAT)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 14]: 0x00000001 (D24X8_BUFFER_FORMAT)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 15]: 0x00000001 (QUERY_TYPES)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 16]: 0x00000001 (TEXTURE_GRADIENT_SAMPLING)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 17]:   1.000000 (MAX_POINT_SIZE)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 18]: 0x00000014 (MAX_SHADER_TEXTURES)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 19]: 0x00004000 (MAX_TEXTURE_WIDTH)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 20]: 0x00004000 (MAX_TEXTURE_HEIGHT)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 21]: 0x00000800 (MAX_VOLUME_EXTENT)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 22]: 0x00004000 (MAX_TEXTURE_REPEAT)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 23]: 0x00004000 (MAX_TEXTURE_ASPECT_RATIO)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 24]: 0x00000010 (MAX_TEXTURE_ANISOTROPY)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 25]: 0x001fffff (MAX_PRIMITIVE_COUNT)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 26]: 0x000fffff (MAX_VERTEX_INDEX)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 27]: 0x0000ffff (MAX_VERTEX_SHADER_INSTRUCTIONS)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 28]: 0x0000ffff (MAX_FRAGMENT_SHADER_INSTRUCTIONS)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 29]: 0x00000020 (MAX_VERTEX_SHADER_TEMPS)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 30]: 0x00000020 (MAX_FRAGMENT_SHADER_TEMPS)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 31]: 0x03ffffff (TEXTURE_OPS)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 32]: 0x0018ec1f (SURFACEFMT_X8R8G8B8)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 33]: 0x0018e11f (SURFACEFMT_A8R8G8B8)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 34]: 0x0008601f (SURFACEFMT_A2R10G10B10)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 35]: 0x0008601f (SURFACEFMT_X1R5G5B5)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 36]: 0x0008611f (SURFACEFMT_A1R5G5B5)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 37]: 0x0000611f (SURFACEFMT_A4R4G4B4)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 38]: 0x0018ec1f (SURFACEFMT_R5G6B5)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 39]: 0x0000601f (SURFACEFMT_LUMINANCE16)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 40]: 0x00006007 (SURFACEFMT_LUMINANCE8_ALPHA8)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 41]: 0x0000601f (SURFACEFMT_ALPHA8)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 42]: 0x0000601f (SURFACEFMT_LUMINANCE8)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 43]: 0x000040c5 (SURFACEFMT_Z_D16)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 44]: 0x000040c5 (SURFACEFMT_Z_D24S8)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 45]: 0x000040c5 (SURFACEFMT_Z_D24X8)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 46]: 0x0000e005 (SURFACEFMT_DXT1)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 47]: 0x0000e005 (SURFACEFMT_DXT2)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 48]: 0x0000e005 (SURFACEFMT_DXT3)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 49]: 0x0000e005 (SURFACEFMT_DXT4)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 50]: 0x0000e005 (SURFACEFMT_DXT5)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 51]: 0x00014005 (SURFACEFMT_BUMPX8L8V8U8)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 52]: 0x00014007 (SURFACEFMT_A2W10V10U10)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 53]: 0x00014007 (SURFACEFMT_BUMPU8V8)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 54]: 0x00014005 (SURFACEFMT_Q8W8V8U8)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 55]: 0x00014001 (SURFACEFMT_CxV8U8)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 56]: 0x0080601f (SURFACEFMT_R_S10E5)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 57]: 0x0080601f (SURFACEFMT_R_S23E8)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 58]: 0x0080601f (SURFACEFMT_RG_S10E5)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 59]: 0x0080601f (SURFACEFMT_RG_S23E8)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 60]: 0x0080601f (SURFACEFMT_ARGB_S10E5)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 61]: 0x0080601f (SURFACEFMT_ARGB_S23E8)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 62]: 0x00000000 (MISSING62)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 63]: 0x00000004 (MAX_VERTEX_SHADER_TEXTURES)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 64]: 0x00000008 (MAX_SIMULTANEOUS_RENDER_TARGETS)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 65]: 0x00014007 (SURFACEFMT_V16U16)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 66]: 0x0000601f (SURFACEFMT_G16R16)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 67]: 0x0000601f (SURFACEFMT_A16B16G16R16)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 68]: 0x01246000 (SURFACEFMT_UYVY)
+2022-09-22T13:16:09.408Z In(05) svga    cap[ 69]: 0x01246000 (SURFACEFMT_YUY2)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 70]: 0x00000000 (DEAD4)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 71]: 0x00000000 (DEAD5)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 72]: 0x00000000 (DEAD7)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 73]: 0x00000000 (DEAD6)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 74]: 0x00000001 (AUTOGENMIPMAPS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 75]: 0x01246000 (SURFACEFMT_NV12)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 76]: 0x00000000 (DEAD10)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 77]: 0x00000100 (MAX_CONTEXT_IDS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 78]: 0x00008000 (MAX_SURFACE_IDS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 79]: 0x000040c5 (SURFACEFMT_Z_DF16)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 80]: 0x000040c5 (SURFACEFMT_Z_DF24)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 81]: 0x000040c5 (SURFACEFMT_Z_D24S8_INT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 82]: 0x00006005 (SURFACEFMT_ATI1)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 83]: 0x00006005 (SURFACEFMT_ATI2)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 84]: 0x00000000 (DEAD1)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 85]: 0x00000000 (DEAD8)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 86]: 0x00000000 (DEAD9)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 87]: 0x00000001 (LINE_AA)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 88]: 0x00000000 (LINE_STIPPLE)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 89]:  10.000000 (MAX_LINE_WIDTH)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 90]:  10.000000 (MAX_AA_LINE_WIDTH)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 91]: 0x01246000 (SURFACEFMT_YV12)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 92]: 0x00000000 (DEAD3)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 93]: 0x00000001 (TS_COLOR_KEY)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 94]: 0x00000000 (DEAD2)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 95]: 0x00000001 (DXCONTEXT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 96]: 0x00000000 (DEAD11)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 97]: 0x00000010 (DX_MAX_VERTEXBUFFERS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 98]: 0x0000000e (DX_MAX_CONSTANT_BUFFERS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[ 99]: 0x00000000 (DX_PROVOKING_VERTEX)
+2022-09-22T13:16:09.409Z In(05) svga    cap[100]: 0x000002f7 (DXFMT_X8R8G8B8)
+2022-09-22T13:16:09.409Z In(05) svga    cap[101]: 0x000003f7 (DXFMT_A8R8G8B8)
+2022-09-22T13:16:09.409Z In(05) svga    cap[102]: 0x000002f7 (DXFMT_R5G6B5)
+2022-09-22T13:16:09.409Z In(05) svga    cap[103]: 0x000000f7 (DXFMT_X1R5G5B5)
+2022-09-22T13:16:09.409Z In(05) svga    cap[104]: 0x000000f7 (DXFMT_A1R5G5B5)
+2022-09-22T13:16:09.409Z In(05) svga    cap[105]: 0x000000f7 (DXFMT_A4R4G4B4)
+2022-09-22T13:16:09.409Z In(05) svga    cap[106]: 0x00000009 (DXFMT_Z_D32)
+2022-09-22T13:16:09.409Z In(05) svga    cap[107]: 0x0000026b (DXFMT_Z_D16)
+2022-09-22T13:16:09.409Z In(05) svga    cap[108]: 0x0000026b (DXFMT_Z_D24S8)
+2022-09-22T13:16:09.409Z In(05) svga    cap[109]: 0x0000000b (DXFMT_Z_D15S1)
+2022-09-22T13:16:09.409Z In(05) svga    cap[110]: 0x000000f7 (DXFMT_LUMINANCE8)
+2022-09-22T13:16:09.409Z In(05) svga    cap[111]: 0x000000e3 (DXFMT_LUMINANCE4_ALPHA4)
+2022-09-22T13:16:09.409Z In(05) svga    cap[112]: 0x000000f7 (DXFMT_LUMINANCE16)
+2022-09-22T13:16:09.409Z In(05) svga    cap[113]: 0x000000e3 (DXFMT_LUMINANCE8_ALPHA8)
+2022-09-22T13:16:09.409Z In(05) svga    cap[114]: 0x00000063 (DXFMT_DXT1)
+2022-09-22T13:16:09.409Z In(05) svga    cap[115]: 0x00000063 (DXFMT_DXT2)
+2022-09-22T13:16:09.409Z In(05) svga    cap[116]: 0x00000063 (DXFMT_DXT3)
+2022-09-22T13:16:09.409Z In(05) svga    cap[117]: 0x00000063 (DXFMT_DXT4)
+2022-09-22T13:16:09.409Z In(05) svga    cap[118]: 0x00000063 (DXFMT_DXT5)
+2022-09-22T13:16:09.409Z In(05) svga    cap[119]: 0x000000e3 (DXFMT_BUMPU8V8)
+2022-09-22T13:16:09.409Z In(05) svga    cap[120]: 0x00000000 (DXFMT_BUMPL6V5U5)
+2022-09-22T13:16:09.409Z In(05) svga    cap[121]: 0x00000063 (DXFMT_BUMPX8L8V8U8)
+2022-09-22T13:16:09.409Z In(05) svga    cap[122]: 0x00000000 (DXFMT_FORMAT_DEAD1)
+2022-09-22T13:16:09.409Z In(05) svga    cap[123]: 0x000003f7 (DXFMT_ARGB_S10E5)
+2022-09-22T13:16:09.409Z In(05) svga    cap[124]: 0x000003f7 (DXFMT_ARGB_S23E8)
+2022-09-22T13:16:09.409Z In(05) svga    cap[125]: 0x000003f7 (DXFMT_A2R10G10B10)
+2022-09-22T13:16:09.409Z In(05) svga    cap[126]: 0x000000e3 (DXFMT_V8U8)
+2022-09-22T13:16:09.409Z In(05) svga    cap[127]: 0x00000063 (DXFMT_Q8W8V8U8)
+2022-09-22T13:16:09.409Z In(05) svga    cap[128]: 0x00000063 (DXFMT_CxV8U8)
+2022-09-22T13:16:09.409Z In(05) svga    cap[129]: 0x000000e3 (DXFMT_X8L8V8U8)
+2022-09-22T13:16:09.409Z In(05) svga    cap[130]: 0x000000e3 (DXFMT_A2W10V10U10)
+2022-09-22T13:16:09.409Z In(05) svga    cap[131]: 0x000000f7 (DXFMT_ALPHA8)
+2022-09-22T13:16:09.409Z In(05) svga    cap[132]: 0x000003f7 (DXFMT_R_S10E5)
+2022-09-22T13:16:09.409Z In(05) svga    cap[133]: 0x000003f7 (DXFMT_R_S23E8)
+2022-09-22T13:16:09.409Z In(05) svga    cap[134]: 0x000003f7 (DXFMT_RG_S10E5)
+2022-09-22T13:16:09.409Z In(05) svga    cap[135]: 0x000003f7 (DXFMT_RG_S23E8)
+2022-09-22T13:16:09.409Z In(05) svga    cap[136]: 0x00000001 (DXFMT_BUFFER)
+2022-09-22T13:16:09.409Z In(05) svga    cap[137]: 0x0000026b (DXFMT_Z_D24X8)
+2022-09-22T13:16:09.409Z In(05) svga    cap[138]: 0x000001e3 (DXFMT_V16U16)
+2022-09-22T13:16:09.409Z In(05) svga    cap[139]: 0x000003f7 (DXFMT_G16R16)
+2022-09-22T13:16:09.409Z In(05) svga    cap[140]: 0x000001f7 (DXFMT_A16B16G16R16)
+2022-09-22T13:16:09.409Z In(05) svga    cap[141]: 0x00000001 (DXFMT_UYVY)
+2022-09-22T13:16:09.409Z In(05) svga    cap[142]: 0x00000041 (DXFMT_YUY2)
+2022-09-22T13:16:09.409Z In(05) svga    cap[143]: 0x00000041 (DXFMT_NV12)
+2022-09-22T13:16:09.409Z In(05) svga    cap[144]: 0x00000000 (DXFMT_FORMAT_DEAD2)
+2022-09-22T13:16:09.409Z In(05) svga    cap[145]: 0x000002e1 (DXFMT_R32G32B32A32_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[146]: 0x000003e7 (DXFMT_R32G32B32A32_UINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[147]: 0x000003e7 (DXFMT_R32G32B32A32_SINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[148]: 0x000000e1 (DXFMT_R32G32B32_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[149]: 0x000001e3 (DXFMT_R32G32B32_FLOAT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[150]: 0x000001e3 (DXFMT_R32G32B32_UINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[151]: 0x000001e3 (DXFMT_R32G32B32_SINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[152]: 0x000002e1 (DXFMT_R16G16B16A16_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[153]: 0x000003e7 (DXFMT_R16G16B16A16_UINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[154]: 0x000003f7 (DXFMT_R16G16B16A16_SNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[155]: 0x000003e7 (DXFMT_R16G16B16A16_SINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[156]: 0x000002e1 (DXFMT_R32G32_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[157]: 0x000003e7 (DXFMT_R32G32_UINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[158]: 0x000003e7 (DXFMT_R32G32_SINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[159]: 0x00000261 (DXFMT_R32G8X24_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[160]: 0x00000269 (DXFMT_D32_FLOAT_S8X24_UINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[161]: 0x00000063 (DXFMT_R32_FLOAT_X8X24)
+2022-09-22T13:16:09.409Z In(05) svga    cap[162]: 0x00000063 (DXFMT_X32_G8X24_UINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[163]: 0x000002e1 (DXFMT_R10G10B10A2_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[164]: 0x000003e7 (DXFMT_R10G10B10A2_UINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[165]: 0x000003f7 (DXFMT_R11G11B10_FLOAT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[166]: 0x000002e1 (DXFMT_R8G8B8A8_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[167]: 0x000003f7 (DXFMT_R8G8B8A8_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[168]: 0x000002f7 (DXFMT_R8G8B8A8_UNORM_SRGB)
+2022-09-22T13:16:09.409Z In(05) svga    cap[169]: 0x000003e7 (DXFMT_R8G8B8A8_UINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[170]: 0x000003e7 (DXFMT_R8G8B8A8_SINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[171]: 0x000002e1 (DXFMT_R16G16_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[172]: 0x000003e7 (DXFMT_R16G16_UINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[173]: 0x000003e7 (DXFMT_R16G16_SINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[174]: 0x000002e1 (DXFMT_R32_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[175]: 0x00000269 (DXFMT_D32_FLOAT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[176]: 0x000003e7 (DXFMT_R32_UINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[177]: 0x000003e7 (DXFMT_R32_SINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[178]: 0x00000261 (DXFMT_R24G8_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[179]: 0x00000269 (DXFMT_D24_UNORM_S8_UINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[180]: 0x00000063 (DXFMT_R24_UNORM_X8)
+2022-09-22T13:16:09.409Z In(05) svga    cap[181]: 0x00000063 (DXFMT_X24_G8_UINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[182]: 0x000002e1 (DXFMT_R8G8_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[183]: 0x000003f7 (DXFMT_R8G8_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[184]: 0x000003e7 (DXFMT_R8G8_UINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[185]: 0x000003e7 (DXFMT_R8G8_SINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[186]: 0x000002e1 (DXFMT_R16_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[187]: 0x000003f7 (DXFMT_R16_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[188]: 0x000003e7 (DXFMT_R16_UINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[189]: 0x000003f7 (DXFMT_R16_SNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[190]: 0x000003e7 (DXFMT_R16_SINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[191]: 0x000002e1 (DXFMT_R8_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[192]: 0x000003f7 (DXFMT_R8_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[193]: 0x000003e7 (DXFMT_R8_UINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[194]: 0x000003f7 (DXFMT_R8_SNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[195]: 0x000003e7 (DXFMT_R8_SINT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[196]: 0x00000001 (DXFMT_P8)
+2022-09-22T13:16:09.409Z In(05) svga    cap[197]: 0x000000e3 (DXFMT_R9G9B9E5_SHAREDEXP)
+2022-09-22T13:16:09.409Z In(05) svga    cap[198]: 0x000000e3 (DXFMT_R8G8_B8G8_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[199]: 0x000000e3 (DXFMT_G8R8_G8B8_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[200]: 0x000000e1 (DXFMT_BC1_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[201]: 0x000000e3 (DXFMT_BC1_UNORM_SRGB)
+2022-09-22T13:16:09.409Z In(05) svga    cap[202]: 0x000000e1 (DXFMT_BC2_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[203]: 0x000000e3 (DXFMT_BC2_UNORM_SRGB)
+2022-09-22T13:16:09.409Z In(05) svga    cap[204]: 0x000000e1 (DXFMT_BC3_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[205]: 0x000000e3 (DXFMT_BC3_UNORM_SRGB)
+2022-09-22T13:16:09.409Z In(05) svga    cap[206]: 0x000000e1 (DXFMT_BC4_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[207]: 0x00000063 (DXFMT_ATI1)
+2022-09-22T13:16:09.409Z In(05) svga    cap[208]: 0x000000e3 (DXFMT_BC4_SNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[209]: 0x000000e1 (DXFMT_BC5_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[210]: 0x00000063 (DXFMT_ATI2)
+2022-09-22T13:16:09.409Z In(05) svga    cap[211]: 0x000000e3 (DXFMT_BC5_SNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[212]: 0x00000045 (DXFMT_R10G10B10_XR_BIAS_A2_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[213]: 0x000002e1 (DXFMT_B8G8R8A8_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[214]: 0x000002f7 (DXFMT_B8G8R8A8_UNORM_SRGB)
+2022-09-22T13:16:09.409Z In(05) svga    cap[215]: 0x000002e1 (DXFMT_B8G8R8X8_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[216]: 0x000002f7 (DXFMT_B8G8R8X8_UNORM_SRGB)
+2022-09-22T13:16:09.409Z In(05) svga    cap[217]: 0x0000006b (DXFMT_Z_DF16)
+2022-09-22T13:16:09.409Z In(05) svga    cap[218]: 0x0000006b (DXFMT_Z_DF24)
+2022-09-22T13:16:09.409Z In(05) svga    cap[219]: 0x0000006b (DXFMT_Z_D24S8_INT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[220]: 0x00000001 (DXFMT_YV12)
+2022-09-22T13:16:09.409Z In(05) svga    cap[221]: 0x000003f7 (DXFMT_R32G32B32A32_FLOAT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[222]: 0x000003f7 (DXFMT_R16G16B16A16_FLOAT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[223]: 0x000003f7 (DXFMT_R16G16B16A16_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[224]: 0x000003f7 (DXFMT_R32G32_FLOAT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[225]: 0x000003f7 (DXFMT_R10G10B10A2_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[226]: 0x000003f7 (DXFMT_R8G8B8A8_SNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[227]: 0x000003f7 (DXFMT_R16G16_FLOAT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[228]: 0x000003f7 (DXFMT_R16G16_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[229]: 0x000003f7 (DXFMT_R16G16_SNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[230]: 0x000003f7 (DXFMT_R32_FLOAT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[231]: 0x000003f7 (DXFMT_R8G8_SNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[232]: 0x000003f7 (DXFMT_R16_FLOAT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[233]: 0x00000269 (DXFMT_D16_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[234]: 0x000002f7 (DXFMT_A8_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[235]: 0x000000e3 (DXFMT_BC1_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[236]: 0x000000e3 (DXFMT_BC2_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[237]: 0x000000e3 (DXFMT_BC3_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[238]: 0x000002f7 (DXFMT_B5G6R5_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[239]: 0x000002f7 (DXFMT_B5G5R5A1_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[240]: 0x000003f7 (DXFMT_B8G8R8A8_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[241]: 0x000003f7 (DXFMT_B8G8R8X8_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[242]: 0x000000e3 (DXFMT_BC4_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[243]: 0x000000e3 (DXFMT_BC5_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[244]: 0x00000001 (SM41)
+2022-09-22T13:16:09.409Z In(05) svga    cap[245]: 0x00000001 (MULTISAMPLE_2X)
+2022-09-22T13:16:09.409Z In(05) svga    cap[246]: 0x00000001 (MULTISAMPLE_4X)
+2022-09-22T13:16:09.409Z In(05) svga    cap[247]: 0x00000001 (MS_FULL_QUALITY)
+2022-09-22T13:16:09.409Z In(05) svga    cap[248]: 0x00000001 (LOGICOPS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[249]: 0x00000001 (LOGIC_BLENDOPS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[250]: 0x00000000 (DEAD12)
+2022-09-22T13:16:09.409Z In(05) svga    cap[251]: 0x000000e1 (DXFMT_BC6H_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[252]: 0x000000e3 (DXFMT_BC6H_UF16)
+2022-09-22T13:16:09.409Z In(05) svga    cap[253]: 0x000000e3 (DXFMT_BC6H_SF16)
+2022-09-22T13:16:09.409Z In(05) svga    cap[254]: 0x000000e1 (DXFMT_BC7_TYPELESS)
+2022-09-22T13:16:09.409Z In(05) svga    cap[255]: 0x000000e3 (DXFMT_BC7_UNORM)
+2022-09-22T13:16:09.409Z In(05) svga    cap[256]: 0x000000e3 (DXFMT_BC7_UNORM_SRGB)
+2022-09-22T13:16:09.409Z In(05) svga    cap[257]: 0x00000000 (DEAD13)
+2022-09-22T13:16:09.409Z In(05) svga    cap[258]: 0x00000001 (SM5)
+2022-09-22T13:16:09.409Z In(05) svga    cap[259]: 0x00000001 (MULTISAMPLE_8X)
+2022-09-22T13:16:09.409Z In(05) svga    cap[260]: 0x00000000 (MAX_FORCED_SAMPLE_COUNT)
+2022-09-22T13:16:09.409Z In(05) svga    cap[261]: 0x00000001 (GL43)
+2022-09-22T13:16:09.410Z In(05) svga  ReplayFifo: mksReplay format version=18
+2022-09-22T13:16:09.411Z In(05) svga  MKSRoleReplay: MKSRoleReplay_Run: Starting.
+2022-09-22T13:20:32.564Z Wa(03) svga  The mksSandbox lost its connection to the main mks.
+2022-09-22T13:20:32.564Z Wa(03) svga  The main mks process may have crashed or hung.
+2022-09-22T13:20:32.564Z Wa(03) svga  Check the mksSandbox.log and vmware.log for more details.
+2022-09-22T13:20:32.564Z Cr(01) svga  PANIC: MKSSandboxComm: Lost connection to isbRenderer (1408)
+2022-09-22T13:20:32.564Z In(05) svga  CoreDump_CoreDump: faking exception to get context
+2022-09-22T13:20:32.567Z Wa(03) svga  CoreDump: Writing minidump to C:\Users\siying.qin\AppData\Local\Temp\vmware-siying.qin\mkssandbox.dmp
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7ff7062c0000 size 0x0x00d40000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x003ed635 timestamp 0x62cbbefd
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe
+2022-09-22T13:20:32.645Z In(05) svga    file version 16.2.4.28481
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff52150000 size 0x0x001f8000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x001fe8da timestamp 0xfe96c48e
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\ntdll.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.1949
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff50aa0000 size 0x0x000bd000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x000bc204 timestamp 0x4d6d72d1
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\kernel32.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.1889
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff4f870000 size 0x0x002ce000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x002d808e timestamp 0xcb12e58e
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\KERNELBASE.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.1949
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff4fd90000 size 0x0x00100000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x00103e56 timestamp 0x2bd748bf
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\ucrtbase.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.789
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff51330000 size 0x0x0006b000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x0006cf4b timestamp 0xaff3315b
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\ws2_32.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.546
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff51090000 size 0x0x00125000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x0012497d timestamp 0x2150b8ff
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\rpcrt4.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.1806
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff348d0000 size 0x0x0008e000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x0009ac72 timestamp 0x8b64702c
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\msvcp140.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 14.32.31332.0
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff51430000 size 0x0x0046f000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x004805af timestamp 0xd0f46d71
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\setupapi.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.1741
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff51b90000 size 0x0x0009e000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x0009e85d timestamp 0x564f9f39
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\msvcrt.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 7.0.19041.546
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x50030000 size 0x0x0001a000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x00024c5a timestamp 0x6114abe8
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Program Files (x86)\VMware\VMware Workstation\x64\zlib1.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 1.2.11.0
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff348b0000 size 0x0x0001b000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x0001d3b4 timestamp 0xefff39ad
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\VCRUNTIME140.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 14.32.31332.0
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff348a0000 size 0x0x0000c000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x0000ae42 timestamp 0xbb9700bd
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\VCRUNTIME140_1.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 14.32.31332.0
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff4ff70000 size 0x0x0004e000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x00057f81 timestamp 0x04ed5855
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\cfgmgr32.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.1620
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7ffec1910000 size 0x0x000ac000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x000b0603 timestamp 0x611491e9
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Program Files (x86)\VMware\VMware Workstation\x64\libssl-1_1-x64.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 1.1.1.11
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff4ff40000 size 0x0x00027000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x00029837 timestamp 0x5eccdefc
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\bcrypt.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.1023
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7ffea9f40000 size 0x0x00317000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x00321bdf timestamp 0x611491d9
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Program Files (x86)\VMware\VMware Workstation\x64\libcrypto-1_1-x64.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 1.1.1.11
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff50db0000 size 0x0x001a0000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x001a9fbe timestamp 0xe1c9e1a1
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\user32.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.1503
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff509f0000 size 0x0x000ae000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x000ad23f timestamp 0x41386534
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\advapi32.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.1682
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff4fb40000 size 0x0x00022000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x0002658f timestamp 0x0dcd0213
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\win32u.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.2006
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff50200000 size 0x0x0009c000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x000a092e timestamp 0x40d0f379
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\sechost.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.1865
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff501d0000 size 0x0x0002a000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x00034a33 timestamp 0xaf7f8e80
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\gdi32.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.1620
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff4fb70000 size 0x0x0010b000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x00115cb9 timestamp 0xce77f698
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\gdi32full.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.2006
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff4fcf0000 size 0x0x0009d000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x0009b039 timestamp 0x39255ccf
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\msvcp_win.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.789
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff50f50000 size 0x0x0012a000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x00134fae timestamp 0xbc9e4cf1
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\ole32.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.1202
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff51d50000 size 0x0x00354000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x0035f8f7 timestamp 0xd7d07179
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\combase.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.1949
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff511c0000 size 0x0x000cd000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x000d0679 timestamp 0x61567b6b
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\oleaut32.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.985
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff502a0000 size 0x0x00743000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x0074e689 timestamp 0x189746fc
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\shell32.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.1949
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff4ffc0000 size 0x0x00156000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x00159e70 timestamp 0xce95420b
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\crypt32.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.1889
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff477b0000 size 0x0x00014000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x00010f40 timestamp 0x5e1a2a61
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\wtsapi32.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.546
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff40600000 size 0x0x00027000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x0002d89c timestamp 0xb8ca2d77
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\winmm.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.546
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff51300000 size 0x0x00030000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x00033d33 timestamp 0x3a0e9944
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\imm32.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.546
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff4d7f0000 size 0x0x00795000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x0079f5b6 timestamp 0x8ff3dd6d
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\windows.storage.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.1949
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff4f260000 size 0x0x00030000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x00035bf3 timestamp 0x144fcb7f
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\wldp.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.1949
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff518a0000 size 0x0x000ad000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x000ae684 timestamp 0x29534f79
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\SHCore.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.1865
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff50d50000 size 0x0x00055000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x00061f73 timestamp 0x857f2e00
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\shlwapi.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.1706
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff4f7b0000 size 0x0x0001f000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x0001fffe timestamp 0x793b0534
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\profapi.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.844
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff4e500000 size 0x0x00033000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x00038797 timestamp 0x3d60ad04
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\ntmarta.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.546
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff4f1c0000 size 0x0x00018000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x0001d2be timestamp 0x04d97ae6
+2022-09-22T13:20:32.645Z In(05) svga    image file C:\Windows\System32\cryptsp.dll
+2022-09-22T13:20:32.645Z In(05) svga    file version 6.2.19041.546
+2022-09-22T13:20:32.645Z In(05) svga  CoreDump: including module base 0x0x7fff4e8d0000 size 0x0x00034000
+2022-09-22T13:20:32.645Z In(05) svga    checksum 0x0003ccde timestamp 0xa9b3ef3b
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\rsaenh.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.1052
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff4f1b0000 size 0x0x0000c000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x00014a16 timestamp 0x28e89a43
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\CRYPTBASE.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.546
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff50120000 size 0x0x00082000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x0008d6fe timestamp 0xe9d3d417
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\bcryptPrimitives.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.1415
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff4f430000 size 0x0x0002c000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x0003168b timestamp 0x0f7ba6ab
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\devobj.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.1620
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff4fc80000 size 0x0x00069000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x0006c13f timestamp 0xa095b068
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\wintrust.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.1949
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff4f410000 size 0x0x00012000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x00013ca9 timestamp 0x9dcceb6f
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\msasn1.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.546
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff4a510000 size 0x0x0009e000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x0009fdb6 timestamp 0xa2992abc
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\uxtheme.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.1620
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff51c30000 size 0x0x00115000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x0012307d timestamp 0x370913fc
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\msctf.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.1949
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff4e5b0000 size 0x0x0005a000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x0005fe0d timestamp 0xc09c98c7
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\winsta.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.546
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff4e0f0000 size 0x0x000f3000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x000ef8f3 timestamp 0xabb9b7d6
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\dxgi.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.1806
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff48c40000 size 0x0x00263000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x00267255 timestamp 0x8ff19571
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\d3d11.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.1865
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff4e080000 size 0x0x00012000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x0001a722 timestamp 0xf0713fcd
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\kernel.appcore.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.546
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff4f400000 size 0x0x0000a000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x0000d776 timestamp 0x14531102
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\version.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.546
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff44780000 size 0x0x00031000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x0003d44f timestamp 0xf30fc478
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\cryptnet.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.906
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff40e30000 size 0x0x00148000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x0014c6e9 timestamp 0x7dce148c
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\drvstore.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.1949
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff501b0000 size 0x0x0001d000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x00026d33 timestamp 0x3d887ab8
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\imagehlp.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.1415
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7ffed6bb0000 size 0x0x002c7000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x002bf2f3 timestamp 0x62448fdd
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\nvspcap64.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 3.25.1.27
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff410d0000 size 0x0x00107000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x0010dcc5 timestamp 0x61f396aa
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\DriverStore\FileRepository\nvmii.inf_amd64_72f51d04aa561233\nvldumdx.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 30.0.15.1165
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff382d0000 size 0x0x02989000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x029b4b6a timestamp 0x61f3973c
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\DriverStore\FileRepository\nvmii.inf_amd64_72f51d04aa561233\nvwgf2umx_cfg.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 30.0.15.1165
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff42a30000 size 0x0x0003b000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x00035b60 timestamp 0xb2f5fd5a
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\DXCore.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.546
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff4d600000 size 0x0x001e4000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x001d0396 timestamp 0x7c197411
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\dbghelp.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.867
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff4f730000 size 0x0x00032000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x00038bb8 timestamp 0xd5f98606
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\sspicli.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.1586
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff27fb0000 size 0x0x0002c000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x0002adac timestamp 0x225c0d3d
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\dbgcore.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.789
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: including module base 0x0x7fff51b00000 size 0x0x00008000
+2022-09-22T13:20:32.646Z In(05) svga    checksum 0x0000503c timestamp 0x0f828c32
+2022-09-22T13:20:32.646Z In(05) svga    image file C:\Windows\System32\psapi.dll
+2022-09-22T13:20:32.646Z In(05) svga    file version 6.2.19041.546
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: Including thread 15340
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: Including thread 13776
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: Including thread 13488
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: Including thread 11376
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: Including thread 10968
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: Including thread 9688
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: Including thread 10520
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: Including thread 16868
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: Including thread 9904
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: Including thread 11220
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: Including thread 20512
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: Including thread 15512
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: Including thread 18064
+2022-09-22T13:20:32.646Z In(05) svga  CoreDump: Including thread 18724
+2022-09-22T13:20:32.698Z In(05) svga  Backtrace:
+2022-09-22T13:20:32.702Z In(05) svga  backtrace[00] frame 0x8b3feff500 IP 0x7ff7064ca1fe params 0 0x7fff38339207 0 0 [C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe base 0x00007ff7062c0000 0x0001:0x00000000002091fe] <C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe>+0x20a1fe
+2022-09-22T13:20:32.702Z In(05) svga  backtrace[01] frame 0x8b3feff570 IP 0x7ff7065301cd params 0x580 0x7ff706590bd0 0x8b3feff5a0 0x8b3feff120 [C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe base 0x00007ff7062c0000 0x0001:0x000000000026f1cd] <C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe>+0x2701cd
+2022-09-22T13:20:32.702Z In(05) svga  backtrace[02] frame 0x8b3feff9a0 IP 0x7ff7063a5513 params 0x7ff7065665b0 0x580 0x8b3fef72b8 0x60 [C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe base 0x00007ff7062c0000 0x0001:0x00000000000e4513] <C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe>+0xe5513
+2022-09-22T13:20:32.702Z In(05) svga  backtrace[03] frame 0x8b3feff9d0 IP 0x7ff7062d300a params 0 0 0 0 [C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe base 0x00007ff7062c0000 0x0001:0x000000000001200a] <C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe>+0x1300a
+2022-09-22T13:20:32.702Z In(05) svga  backtrace[04] frame 0x8b3feffa00 IP 0x7ff7062d3411 params 0 0x7ff7064d3be2 0x27aab97bd70 0x7ff7062c1e4e [C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe base 0x00007ff7062c0000 0x0001:0x0000000000012411] <C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe>+0x13411
+2022-09-22T13:20:32.703Z In(05) svga  backtrace[05] frame 0x8b3feffa40 IP 0x7ff706387113 params 0 0x1 0 0 [C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe base 0x00007ff7062c0000 0x0001:0x00000000000c6113] <C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe>+0xc7113
+2022-09-22T13:20:32.703Z In(05) svga  backtrace[06] frame 0x8b3feffa80 IP 0x7ff7062c1718 params 0x193 0 0x8b3feffa48 0x1 [C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe base 0x00007ff7062c0000 0x0001:0x0000000000000718] <C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe>+0x1718
+2022-09-22T13:20:32.703Z In(05) svga  backtrace[07] frame 0x8b3feffab0 IP 0x7ff7062c17ad params 0x1 0 0x1 0 [C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe base 0x00007ff7062c0000 0x0001:0x00000000000007ad] <C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe>+0x17ad
+2022-09-22T13:20:32.703Z In(05) svga  backtrace[08] frame 0x8b3feffae0 IP 0x7ff7062d4728 params 0x1 0x7ff70658bfe0 0x8b3feff9e8 0 [C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe base 0x00007ff7062c0000 0x0001:0x0000000000013728] <C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe>+0x14728
+2022-09-22T13:20:32.703Z In(05) svga  backtrace[09] frame 0x8b3feffb10 IP 0x7ff706393e2f params 0 0 0 0 [C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe base 0x00007ff7062c0000 0x0001:0x00000000000d2e2f] <C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe>+0xd3e2f
+2022-09-22T13:20:32.703Z In(05) svga  backtrace[10] frame 0x8b3feffba0 IP 0x7ff706509ff4 params 0 0 0 0 [C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe base 0x00007ff7062c0000 0x0001:0x0000000000248ff4] <C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe>+0x249ff4
+2022-09-22T13:20:32.704Z In(05) svga  backtrace[11] frame 0x8b3feffba8 IP 0x7fff50ab7034 params 0 0 0 0 [C:\Windows\System32\KERNEL32.DLL base 0x00007fff50aa0000 0x0001:0x0000000000016034] BaseThreadInitThunk
+2022-09-22T13:20:32.706Z In(05) svga  backtrace[12] frame 0x8b3feffbd8 IP 0x7fff521a26a1 params 0 0 0 0 [C:\Windows\SYSTEM32\ntdll.dll base 0x00007fff52150000 0x0001:0x00000000000516a1] RtlUserThreadStart
+2022-09-22T13:20:32.706Z In(05) svga  Printing loaded objects
+2022-09-22T13:20:32.706Z In(05) svga  [0x00062c0000-0x0007000000): C:\Program Files (x86)\VMware\VMware Workstation\x64\mksSandbox.exe
+2022-09-22T13:20:32.706Z In(05) svga  [0x0052150000-0x0052348000): C:\Windows\SYSTEM32\ntdll.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x0050aa0000-0x0050b5d000): C:\Windows\System32\KERNEL32.DLL
+2022-09-22T13:20:32.706Z In(05) svga  [0x004f870000-0x004fb3e000): C:\Windows\System32\KERNELBASE.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x004fd90000-0x004fe90000): C:\Windows\System32\ucrtbase.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x0051330000-0x005139b000): C:\Windows\System32\WS2_32.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x0051090000-0x00511b5000): C:\Windows\System32\RPCRT4.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x00348d0000-0x003495e000): C:\Windows\SYSTEM32\MSVCP140.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x0051430000-0x005189f000): C:\Windows\System32\SETUPAPI.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x0051b90000-0x0051c2e000): C:\Windows\System32\msvcrt.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x0050030000-0x005004a000): C:\Program Files (x86)\VMware\VMware Workstation\x64\zlib1.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x00348b0000-0x00348cb000): C:\Windows\SYSTEM32\VCRUNTIME140.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x00348a0000-0x00348ac000): C:\Windows\SYSTEM32\VCRUNTIME140_1.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x004ff70000-0x004ffbe000): C:\Windows\System32\cfgmgr32.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x00c1910000-0x00c19bc000): C:\Program Files (x86)\VMware\VMware Workstation\x64\libssl-1_1-x64.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x004ff40000-0x004ff67000): C:\Windows\System32\bcrypt.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x00a9f40000-0x00aa257000): C:\Program Files (x86)\VMware\VMware Workstation\x64\libcrypto-1_1-x64.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x0050db0000-0x0050f50000): C:\Windows\System32\USER32.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x00509f0000-0x0050a9e000): C:\Windows\System32\ADVAPI32.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x004fb40000-0x004fb62000): C:\Windows\System32\win32u.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x0050200000-0x005029c000): C:\Windows\System32\sechost.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x00501d0000-0x00501fa000): C:\Windows\System32\GDI32.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x004fb70000-0x004fc7b000): C:\Windows\System32\gdi32full.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x004fcf0000-0x004fd8d000): C:\Windows\System32\msvcp_win.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x0050f50000-0x005107a000): C:\Windows\System32\ole32.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x0051d50000-0x00520a4000): C:\Windows\System32\combase.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x00511c0000-0x005128d000): C:\Windows\System32\OLEAUT32.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x00502a0000-0x00509e3000): C:\Windows\System32\SHELL32.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x004ffc0000-0x0050116000): C:\Windows\System32\CRYPT32.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x00477b0000-0x00477c4000): C:\Windows\SYSTEM32\WTSAPI32.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x0040600000-0x0040627000): C:\Windows\SYSTEM32\WINMM.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x0051300000-0x0051330000): C:\Windows\System32\IMM32.DLL
+2022-09-22T13:20:32.706Z In(05) svga  [0x004d7f0000-0x004df85000): C:\Windows\SYSTEM32\windows.storage.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x004f260000-0x004f290000): C:\Windows\SYSTEM32\Wldp.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x00518a0000-0x005194d000): C:\Windows\System32\SHCORE.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x0050d50000-0x0050da5000): C:\Windows\System32\shlwapi.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x004f7b0000-0x004f7cf000): C:\Windows\SYSTEM32\profapi.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x004e500000-0x004e533000): C:\Windows\SYSTEM32\ntmarta.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x004f1c0000-0x004f1d8000): C:\Windows\SYSTEM32\CRYPTSP.dll
+2022-09-22T13:20:32.706Z In(05) svga  [0x004e8d0000-0x004e904000): C:\Windows\system32\rsaenh.dll
+2022-09-22T13:20:32.707Z In(05) svga  [0x004f1b0000-0x004f1bc000): C:\Windows\SYSTEM32\CRYPTBASE.dll
+2022-09-22T13:20:32.707Z In(05) svga  [0x0050120000-0x00501a2000): C:\Windows\System32\bcryptPrimitives.dll
+2022-09-22T13:20:32.707Z In(05) svga  [0x004f430000-0x004f45c000): C:\Windows\SYSTEM32\DEVOBJ.dll
+2022-09-22T13:20:32.707Z In(05) svga  [0x004fc80000-0x004fce9000): C:\Windows\System32\WINTRUST.dll
+2022-09-22T13:20:32.707Z In(05) svga  [0x004f410000-0x004f422000): C:\Windows\SYSTEM32\MSASN1.dll
+2022-09-22T13:20:32.707Z In(05) svga  [0x004a510000-0x004a5ae000): C:\Windows\system32\uxtheme.dll
+2022-09-22T13:20:32.707Z In(05) svga  [0x0051c30000-0x0051d45000): C:\Windows\System32\MSCTF.dll
+2022-09-22T13:20:32.707Z In(05) svga  [0x004e5b0000-0x004e60a000): C:\Windows\SYSTEM32\WINSTA.dll
+2022-09-22T13:20:32.707Z In(05) svga  [0x004e0f0000-0x004e1e3000): C:\Windows\SYSTEM32\DXGI.DLL
+2022-09-22T13:20:32.707Z In(05) svga  [0x0048c40000-0x0048ea3000): C:\Windows\SYSTEM32\D3D11.DLL
+2022-09-22T13:20:32.707Z In(05) svga  [0x004e080000-0x004e092000): C:\Windows\SYSTEM32\kernel.appcore.dll
+2022-09-22T13:20:32.707Z In(05) svga  [0x004f400000-0x004f40a000): C:\Windows\SYSTEM32\VERSION.dll
+2022-09-22T13:20:32.707Z In(05) svga  [0x0044780000-0x00447b1000): C:\Windows\SYSTEM32\cryptnet.dll
+2022-09-22T13:20:32.707Z In(05) svga  [0x0040e30000-0x0040f78000): C:\Windows\SYSTEM32\drvstore.dll
+2022-09-22T13:20:32.707Z In(05) svga  [0x00501b0000-0x00501cd000): C:\Windows\System32\imagehlp.dll
+2022-09-22T13:20:32.707Z In(05) svga  [0x00d6bb0000-0x00d6e77000): C:\Windows\system32\nvspcap64.dll
+2022-09-22T13:20:32.707Z In(05) svga  [0x00410d0000-0x00411d7000): C:\Windows\System32\DriverStore\FileRepository\nvmii.inf_amd64_72f51d04aa561233\nvldumdx.dll
+2022-09-22T13:20:32.707Z In(05) svga  [0x00382d0000-0x003ac59000): C:\Windows\System32\DriverStore\FileRepository\nvmii.inf_amd64_72f51d04aa561233\nvwgf2umx_cfg.dll
+2022-09-22T13:20:32.707Z In(05) svga  [0x0042a30000-0x0042a6b000): C:\Windows\SYSTEM32\dxcore.dll
+2022-09-22T13:20:32.707Z In(05) svga  [0x004d600000-0x004d7e4000): C:\Windows\SYSTEM32\dbghelp.dll
+2022-09-22T13:20:32.707Z In(05) svga  [0x004f730000-0x004f762000): C:\Windows\SYSTEM32\SspiCli.dll
+2022-09-22T13:20:32.707Z In(05) svga  [0x0027fb0000-0x0027fdc000): C:\Windows\SYSTEM32\dbgcore.DLL
+2022-09-22T13:20:32.707Z In(05) svga  [0x0051b00000-0x0051b08000): C:\Windows\System32\psapi.dll
+2022-09-22T13:20:32.707Z In(05) svga  End printing loaded objects
+2022-09-22T13:20:32.707Z Wa(03) svga  Win32 object usage: GDI 4, USER 7
+2022-09-22T13:20:32.707Z In(05) svga  Exiting
